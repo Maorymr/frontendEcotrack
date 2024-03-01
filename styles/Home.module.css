@@ -7,16 +7,93 @@
   padding: 4rem 0;
 }
 
-.title {
-  line-height: 1.15;
-  font-size: 4rem;
+.header {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+  height: "50px";
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.title a:hover, .title a:focus, .title a:active {
-  text-decoration: underline;
+.divh {
+  background-color: brown;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menuItems {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 03px;
+}
+
+.hiv {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: "10px";
+}
+
+.div2 {
+  background-color: #41f67f;
+  width: 100%;
+  height: 1000px;
+}
+
+/*page 2*/
+
+
+.insc {
+  background-color: aqua;
+
+  display: flex;
+}
+
+
+.app {
+  background-color: aquamarine;
+  display: flex;
+}
+
+
+.goo {
+  background-color: aliceblue;
+  display: flex;
+}
+
+
+.ou {
+  background-color: bisque;
+  display: flex;
+}
+
+
+.cree {
+  background-color: coral;
+  display: flex;
+}
+
+
+.deja {
+  background-color: darkgreen;
+  
+  display: flex;
+  border: 10px solid #ddd;
+}
+
+
+.conn {
+  background-color: firebrick;
+  display: flex;
 }
