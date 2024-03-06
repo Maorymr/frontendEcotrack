@@ -1,11 +1,11 @@
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
-function Home({ Component, pageProps }) {
+function Home() {
   return (
     <>
       <header className={styles.header}>
-        <img src="/image.png" style={{ width: "130px", height: "100px" }} />
+        <img src="/image.png" style={{ width: "130px", height: "70px" }} />
         <div className={styles.menuItems}>
           <p
             style={{
@@ -18,7 +18,7 @@ function Home({ Component, pageProps }) {
               backgroundColor: "white",
             }}
           >
-            ÉcoTrack
+            EcoTrack
           </p>
         </div>
         <div className={styles.hiv}>
@@ -138,7 +138,7 @@ function Home({ Component, pageProps }) {
                 textDecorationColor: "green",
               }}
             >
-              <Link href="/Inscription">inscription</Link>
+              inscription
             </p>
           </div>
         </div>
