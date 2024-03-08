@@ -13,7 +13,7 @@ function Home() {
               border: "1px solid white",
               padding: "13px",
               fontSize: "30px",
-              marginTop: "17px",
+              marginTop: "px",
               borderRadius: "50px",
               backgroundColor: "white",
             }}
@@ -107,39 +107,8 @@ function Home() {
               {" "}
               Contact{" "}
             </p>
-            <p
-              style={{
-                margin: "10px",
-                backgroundColor: "white",
-                padding: "13px",
-                borderRadius: "30px",
-                width: "100%",
-                whiteSpace: "nowrap",
-                textDecoration: "underline",
-                textUnderlineOffset: "10px",
-                textDecorationColor: "green",
-                textDecoration: "underline",
-                textUnderlineOffset: "10px",
-                textDecorationColor: "green",
-              }}
-            >
-              Connexion
-            </p>
-            <p
-              style={{
-                margin: "10px",
-                backgroundColor: "white",
-                padding: "13px",
-                borderRadius: "30px",
-                width: "100%",
-                whiteSpace: "nowrap",
-                textDecoration: "underline",
-                textUnderlineOffset: "10px",
-                textDecorationColor: "green",
-              }}
-            >
-              inscription
-            </p>
+            <button className={styles.secondaryButton}>Connexion</button>
+            <button className={styles.secondaryButton}>Inscription</button>
           </div>
         </div>
       </header>
