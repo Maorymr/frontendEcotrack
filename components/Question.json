@@ -1,0 +1,176 @@
+[
+  {
+    "question": "Combien de kilomètres parcourez-vous en moyenne chaque semaine en voiture ?",
+    "answers": [
+      { "content": "Moins de 50 km", "CO2": 10 },
+      { "content": "Entre 50 et 100 km", "CO2": 20 },
+      { "content": "Entre 100 et 200 km", "CO2": 30 },
+      { "content": "Plus de 200 km", "CO2": 40 }
+    ]
+  },
+  {
+    "question": "Combien de fois par semaine mangez-vous de la viande rouge ?",
+    "answers": [
+      { "content": "Jamais", "CO2": 5 },
+      { "content": "1 à 2 fois", "CO2": 10 },
+      { "content": "3 à 4 fois", "CO2": 15 },
+      { "content": "Plus de 4 fois", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien d'heures laissez-vous vos appareils électroniques en veille chaque jour ?",
+    "answers": [
+      { "content": "Jamais", "CO2": 5 },
+      { "content": "Moins de 1 heure", "CO2": 10 },
+      { "content": "Entre 1 et 4 heures", "CO2": 15 },
+      { "content": "Plus de 4 heures", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien de déchets plastiques produisez-vous en moyenne chaque semaine ?",
+    "answers": [
+      { "content": "Presque aucun", "CO2": 5 },
+      { "content": "Moins de 1 kg", "CO2": 10 },
+      { "content": "Entre 1 et 2 kg", "CO2": 15 },
+      { "content": "Plus de 2 kg", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien de fois par semaine utilisez-vous un sac plastique pour faire vos courses ?",
+    "answers": [
+      { "content": "Jamais", "CO2": 5 },
+      { "content": "1 à 2 fois", "CO2": 10 },
+      { "content": "3 à 4 fois", "CO2": 15 },
+      { "content": "Plus de 4 fois", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien de fois par semaine prenez-vous une douche au lieu d'un bain ?",
+    "answers": [
+      { "content": "Toujours", "CO2": 5 },
+      { "content": "3 à 4 fois", "CO2": 10 },
+      { "content": "1 à 2 fois", "CO2": 15 },
+      { "content": "Jamais", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien de fois par semaine utilisez-vous les transports en commun ?",
+    "answers": [
+      { "content": "Tous les jours", "CO2": 5 },
+      { "content": "3 à 4 fois", "CO2": 10 },
+      { "content": "1 à 2 fois", "CO2": 15 },
+      { "content": "Jamais", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien d'appareils électriques laissez-vous en veille chaque nuit ?",
+    "answers": [
+      { "content": "Aucun", "CO2": 5 },
+      { "content": "1 à 2 appareils", "CO2": 10 },
+      { "content": "Entre 3 et 5 appareils", "CO2": 15 },
+      { "content": "Plus de 5 appareils", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien de fois par semaine mangez-vous des produits locaux ?",
+    "answers": [
+      { "content": "Tous les jours", "CO2": 5 },
+      { "content": "3 à 4 fois", "CO2": 10 },
+      { "content": "1 à 2 fois", "CO2": 15 },
+      { "content": "Jamais", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien de temps laissez-vous vos lumières allumées lorsque vous n'êtes pas dans la pièce ?",
+    "answers": [
+      { "content": "Jamais", "CO2": 5 },
+      { "content": "Moins de 1 heure", "CO2": 10 },
+      { "content": "Entre 1 et 4 heures", "CO2": 15 },
+      { "content": "Plus de 4 heures", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien de fois par semaine utilisez-vous des produits jetables (assiettes, couverts, etc.) ?",
+    "answers": [
+      { "content": "Jamais", "CO2": 5 },
+      { "content": "1 à 2 fois", "CO2": 10 },
+      { "content": "3 à 4 fois", "CO2": 15 },
+      { "content": "Plus de 4 fois", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien de fois par semaine recyclez-vous vos déchets ?",
+    "answers": [
+      { "content": "Tous les jours", "CO2": 5 },
+      { "content": "3 à 4 fois", "CO2": 10 },
+      { "content": "1 à 2 fois", "CO2": 15 },
+      { "content": "Jamais", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien de fois par semaine utilisez-vous une bouteille d'eau en plastique ?",
+    "answers": [
+      { "content": "Jamais", "CO2": 5 },
+      { "content": "1 à 2 fois", "CO2": 10 },
+      { "content": "3 à 4 fois", "CO2": 15 },
+      { "content": "Plus de 4 fois", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien de fois par semaine utilisez-vous un sac réutilisable pour faire vos courses ?",
+    "answers": [
+      { "content": "Tous les jours", "CO2": 5 },
+      { "content": "3 à 4 fois", "CO2": 10 },
+      { "content": "1 à 2 fois", "CO2": 15 },
+      { "content": "Jamais", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien de fois par semaine utilisez-vous des appareils électroniques chargés à l'énergie solaire ?",
+    "answers": [
+      { "content": "Tous les jours", "CO2": 5 },
+      { "content": "3 à 4 fois", "CO2": 10 },
+      { "content": "1 à 2 fois", "CO2": 15 },
+      { "content": "Jamais", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien de fois par semaine utilisez-vous des produits de nettoyage écologiques ?",
+    "answers": [
+      { "content": "Tous les jours", "CO2": 5 },
+      { "content": "3 à 4 fois", "CO2": 10 },
+      { "content": "1 à 2 fois", "CO2": 15 },
+      { "content": "Jamais", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien de fois par semaine prenez-vous les escaliers au lieu de l'ascenseur ?",
+    "answers": [
+      { "content": "Tous les jours", "CO2": 5 },
+      { "content": "3 à 4 fois", "CO2": 10 },
+      { "content": "1 à 2 fois", "CO2": 15 },
+      { "content": "Jamais", "CO2": 20 }
+    ]
+  },
+
+  {
+    "question": "Combien de fois par semaine utilisez-vous des lampes LED à faible consommation d'énergie ?",
+    "answers": [
+      { "content": "Tous les jours", "CO2": 5 },
+      { "content": "3 à 4 fois", "CO2": 10 },
+      { "content": "1 à 2 fois", "CO2": 15 },
+      { "content": "Jamais", "CO2": 20 }
+    ]
+  },
+  {
+    "question": "Combien de fois par semaine utilisez-vous des produits de beauté et d'hygiène naturels ou biologiques ?",
+    "answers": [
+      { "content": "Tous les jours", "CO2": 5 },
+      { "content": "3 à 4 fois", "CO2": 10 },
+      { "content": "1 à 2 fois", "CO2": 15 },
+      { "content": "Jamais", "CO2": 20 }
+      
+    ]
+  }
+]
+

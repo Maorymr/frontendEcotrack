@@ -22,9 +22,11 @@ import {
   InfiniteMovingCardsMaory,
 } from "./InfiniteMovingCards";
 import { SparklesPreview } from "./sparklestext";
+import Modals from "./Modals";
 
 export default function ComponentHome() {
   const [showModal, setShowModal] = useState(false);
+  // const  [Modal,  setModalIsOpen] = useState(true);
 
   // Fonction pour ouvrir la modal
   const openModal = () => {
@@ -42,6 +44,8 @@ export default function ComponentHome() {
     // Ajoutez autant d'images que nécessaire
   ];
 
+  const handleQuestion = () => {};
+
   return (
     <div>
       <Header />
@@ -51,8 +55,9 @@ export default function ComponentHome() {
             <h1 className={styles.heroTitle}>
               <SparklesPreview />
             </h1>
+            <Modals closeModal={closeModal} showModal={showModal} />
             <p className={`${styles.heroSubtitle} z-50 -mt-40`}>
-              Ecotrack est une application mobile créée pour calculer votre
+              Ecotrack est une application mobile crée pour calculer votre
               empreinte carbone. Vous aurez accès à votre propre empreinte
               carbone et à celles des autres. Il y aura un classement qui va
               vous permettre de vous concurrencer entre amis ou avec les autres
@@ -67,11 +72,14 @@ export default function ComponentHome() {
                 Télécharger maintenant
               </button>
               <button
+                onClick={() => setShowModal(true)}
                 className={styles.secondaryButton}
                 style={{ boxShadow: "4px 4px 0px #085229" }}
               >
-                En savoir plus
+                Votre empreinte carbone
               </button>
+
+              {/* <Modals /> */}
             </div>
           </div>
           <img src="./double.png" className={styles.heroImage} />
@@ -81,18 +89,47 @@ export default function ComponentHome() {
             <div className={styles.mini}></div>
             <div className={styles.title}></div>
             <div className={styles.descript}></div>
+            <p className="text-5xl text-white w-full text-center mb-10">
+              Plusieurs façon de faire
+            </p>
             <div className={styles.parent1}>
-              <img src="/false.png" className={styles.box}></img>
-              <img src="/true.png" className={styles.box}></img>
-              <img src="/vrai.png" className={styles.box}></img>
+              {" "}
+              <div></div>
+              <div className={styles.box}>
+                {" "}
+                <h2 className={styles.directory}>Comptabilisez</h2>
+                <p>
+                  Traquez vos émissions de carbone grâce à un système gamifié.
+                </p>{" "}
+                <img src="/jauge.png"></img>
+              </div>
+              <div className={styles.box}>
+                <h2 className={styles.directory}>Réduisez</h2>
+                <p>
+                  Apprenez comment réduire vos émissions grâce aux quêtes et
+                  tips à votre dispositions
+                </p>
+                <img src="/co2.png"></img>
+              </div>
+              <div className={styles.box}>
+                <h2 className={styles.directory}>Agir</h2>
+                <p>
+                  Contribuez à améliorer votre impact grâce à un annuaire de
+                  stuctures éco responsable
+                </p>
+                <img src="/planet.png"></img>
+              </div>
               <div className={styles.api}></div>
             </div>
           </div>
         </div>
         <div className={styles.page3}>
-          <div className={styles.text}>Voici une image de notre aplication</div>
+          <div className={styles.text}></div>
           <img src="./true.png" className={styles.heroImaze} />
-          <div className={styles.text1}>Ceci est votre empreinte Carbone</div>
+          <div className={styles.text1}></div>
+          <p className="text-white font-size 100px">
+            Votre empreinte carbone en temps réel !
+          </p>
         </div>
       </main>
       <div className={styles.page6}>

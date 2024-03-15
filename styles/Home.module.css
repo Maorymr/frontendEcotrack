@@ -89,7 +89,7 @@
   align-items: center;
   background-color: #000000;
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   padding-left: 50px;
 }
 
@@ -144,7 +144,7 @@
 
 .heroImage {
   max-width: 600px;
-  height: auto;
+  height: 10;
   margin: 100px;
 }
 
@@ -198,7 +198,7 @@
 
 .parent1 {
   display: flex;
-  height: 1000px;
+  height: 100vh;
   gap: 20px;
   justify-content: space-between;
 }
@@ -221,6 +221,7 @@
 .page2container {
   background-color: #615c5c;
   background: #000000;
+  height: 70vh;
 }
 
 .mini {
@@ -250,7 +251,7 @@
 .page3 {
   background-color: #000000;
   color: #441a1a;
-  height: 150vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -309,6 +310,16 @@
   width: 250px;
   display: flex;
   justify-content: space-around;
+}
+
+.imgparagraphe {
+  color: white;
+  font-size: 40px;
+  display: flex;
+}
+
+.imgparagrphes {
+  color: white;
 }
 
 .potent {
@@ -391,8 +402,9 @@
 }
 
 .follow {
-  background-color: #080808;
+  background-color: #000000;
   color: white;
+  height: 10vh;
   padding-top: 30%;
   padding-left: 87%;
 }
@@ -439,4 +451,86 @@
 
 .p {
   color: white;
+}
+
+/*Modals*/
+
+.answers {
+  display: flex;
+  flex-wrap: wrap;
+}
+.answer {
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 50%;
+}
+
+
+
+.parents2 {
+  background-color: #41f67f;
+  height: 50vh;
+}
+
+.vutton {
+  display: flex;
+  justify-content: center;
+}
+
+.h23 {
+  display: flex;
+  justify-content: center;
+}
+
+.class1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20px;
+}
+
+.class2 {
+  height: 35vh;
+}
+
+.pae {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  border: 2px;
+}
+
+.directory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.finished {
+  background-color: #41f67f;
+  display: flex;
+  justify-content: center;
+  height: 45vh;
+  font-size: 25px;
+}
+.finished1 {
+  display: flex;
+}
+
+.light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.constante {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

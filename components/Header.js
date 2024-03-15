@@ -28,7 +28,7 @@ function Home() {
               alignItems: "center",
             }}
           >
-            <p
+            <button
               style={{
                 margin: "10px",
                 backgroundColor: "white",
@@ -43,8 +43,8 @@ function Home() {
             >
               {" "}
               Acceuil
-            </p>
-            <p
+            </button>
+            <button
               style={{
                 margin: "10px",
                 backgroundColor: "white",
@@ -59,7 +59,7 @@ function Home() {
             >
               {" "}
               A propos
-            </p>
+            </button>
             <p
               style={{
                 margin: "10px",
